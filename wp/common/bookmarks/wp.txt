@@ -1,0 +1,22 @@
+bookmarks = {
+	bookmark = {
+		name = "WILD_POLITICS_NAME"
+		desc = "WILD_POLITICS_DESC"
+		date = 2024.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "KSR"
+		default = yes
+		
+		"KSR"={
+			history = "KSR_WILD_POLITICS_DESC"
+			ideology = democratic
+			available = { NOT = { has_dlc = "La Resistance" } }
+			ideas = {
+				KSR_
+			}
+			focuses = {
+				KSR_
+			}
+		}
+	}
+}
