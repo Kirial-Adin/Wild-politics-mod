@@ -1,0 +1,2 @@
+KSR	= "countries/ksr.txt"
+
