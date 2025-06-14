@@ -25,10 +25,13 @@ recruit_character = RPR_putid
 recruit_character = RPR_rubrii
 recruit_character = RPR_servia
 recruit_character = RPR_neron
+recruit_character = RPR_mitria
+recruit_character = RPR_albinii
+recruit_character = RPR_servii
 
 
 create_country_leader = {
-	name = "Servia"
+	name = "RPR_servia"
 	desc = ""
 	picture = GFX_servia
 	ideology = conservatism
