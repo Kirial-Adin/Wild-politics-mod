@@ -1,18 +1,22 @@
 focus_tree = {
-	id = ALB_focus
+	id = RPR_focus
 	country = {
 		factor = 0
 		modifier = {
 			add = 10
-			tag = ALB
+			tag = RPR
 		}
 	}
 	default = no
 	focus = {
-		id = focus1
+		id = economic_focus1
 		x = 2
 		y = 0
 		cost = 5
+		select_effect = {
+			remove_ideas = economic_crisis
+			add_ideas = temporary_stabilization
+		}
 		completion_reward = {
 			add_political_power = 50
 		}

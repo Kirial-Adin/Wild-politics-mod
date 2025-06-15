@@ -20,6 +20,10 @@ set_popularities = {
 	neutrality = 100
 }
 
+add_ideas = {
+	economic_crisis
+}
+
 
 recruit_character = RPR_putid
 recruit_character = RPR_rubrii

@@ -17,6 +17,15 @@ spriteTypes = {
 		name = "GFX_servia_small"
 		texturefile = "gfx/interface/ideas/RPR/RPR_servia_small.tga"
 	}
+	spriteType = {
+		name = "GFX_generic_economic_crisis"
+		texturefile = "gfx/interface/ideas/RPR/NS/generic_economic_crisis.dds"
+	}
+	spriteType = {
+		name = "GFX_generic_goods_red_bonus"
+		texturefile = "gfx/interface/ideas/RPR/NS/generic_goods_red_bonus.dds"
+	}
+
 
 
 
