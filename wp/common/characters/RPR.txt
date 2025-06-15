@@ -1,0 +1,125 @@
+characters = {
+	RPR_rubrii = {
+		name = RPR_rubrii
+		portraits = {
+			civilian = {
+				large = GFX_rubrii
+			}
+		}
+		corps_commander = {
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+			id = -1
+			traits = { commando centurio }
+		}
+	}
+	RPR_servia = {
+		name = RPR_servia
+		portraits = {
+			civilian = {
+				large = GFX_servia
+			}
+			army = {
+				small = GFX_servia_small
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			expire = "1965.1.1"
+			id = -1
+			traits = { consul_of_RPR }
+		}
+		advisor = {
+			coast = 1200
+			slot = high_command
+			idea_token = RPR_servia
+			ledger = army
+			can_be_fired = yes
+			allowed = {original_tag = RPR}
+			traits = { pragmatic_strategist }
+		}
+	}
+	RPR_neron = {
+		name = RPR_neron
+		portraits = {
+			civilian = {
+				large = GFX_neron
+			}
+			army = {
+				small = GFX_neron_small
+			}
+		}
+		advisor = {
+			coast = 1400
+			slot = political_advisor
+			idea_token = RPR_neron
+			ledger = civilian
+			can_be_fired = yes
+			allowed = {original_tag = RPR}
+			traits = { stabilizer_and_reformer }
+		}
+	}
+	RPR_mitria = {
+		name = RPR_mitria
+		portraits = {
+			civilian = {
+				large = GFX_mitria
+			}
+			army = {
+				small = GFX_mitria_small
+			}
+		}
+		advisor = {
+			coast = 1100
+			slot = political_advisor
+			idea_token = RPR_mitria
+			ledger = civilian
+			can_be_fired = yes
+			allowed = {original_tag = RPR}
+			traits = { keeper_of_traditions }
+		}
+	}
+	RPR_albinii = {
+		name = RPR_albinii
+		portraits = {
+			civilian = {
+				large = GFX_albinii
+			}
+			army = {
+				small = GFX_albinii_small
+			}
+		}
+		advisor = {
+			coast = 1400
+			slot = political_advisor
+			idea_token = RPR_albinii
+			ledger = civilian
+			can_be_fired = yes
+			allowed = {original_tag = RPR}
+			traits = { people_s_favorite }
+		}
+	}
+	RPR_servii = {
+		name = RPR_servii
+		portraits = {
+			civilian = {
+				large = GFX_servii
+			}
+			army = {
+				small = GFX_servii_small
+			}
+		}
+		advisor = {
+			coast = 1400
+			slot = theorist
+			idea_token = RPR_servii
+			ledger = all
+			can_be_fired = yes
+			allowed = {original_tag = RPR}
+			traits = { experienced_engineer }
+		}
+	}
+}

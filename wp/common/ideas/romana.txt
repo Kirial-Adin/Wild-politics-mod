@@ -1,0 +1,39 @@
+ideas = {
+	country = {
+		economic_crisis = {
+			picture = generic_economic_crisis
+			allowed = {
+				original_tag = RPR
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_buildings_factor = -0.25
+				stability_factor = -0.30
+				political_power_gain = -0.25
+				industrial_capacity_factory = -0.2
+			}
+		}
+	}
+	country = {
+		temporary_stabilization = {
+			picture = generic_goods_red_bonus
+			allowed = {
+				original_tag = RPR
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.10
+				political_power_gain = 0.10
+				production_speed_buildings_factor = 0.10
+			}
+		}
+	}
+}
