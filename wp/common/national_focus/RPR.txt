@@ -2,7 +2,7 @@ focus_tree = {
 	id = RPR_focus
 	country = {
 		factor = 0
-		modifier = {
+		modifier = { 
 			add = 10
 			tag = RPR
 		}
@@ -12,6 +12,7 @@ focus_tree = {
 		id = economic_focus1
 		x = 2
 		y = 0
+		desc = "ec_desc1"
 		cost = 5
 		select_effect = {
 			remove_ideas = economic_crisis
@@ -19,6 +20,62 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_political_power = 50
+		}
+	}
+	focus = {
+		id = economic_focus2
+		x = 2
+		y = 2
+		cost = 5
+		desc = "ec_desc2"
+		prerequisite = { focus = "economic_focus1" }
+		select_effect = {
+			remove_ideas = economic_crisis
+			add_ideas = temporary_stabilization
+		}
+		completion_reward = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1  
+				state = 667  
+				instant_build = yes  # Строится мгновенно
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				state = 554  
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				state = 680  	
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				state = 291  	
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				state = 676 	
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				state = 417  	
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				state = 266  	
+				instant_build = yes
+			}
 		}
 	}
 }
